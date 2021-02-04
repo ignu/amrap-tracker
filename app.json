@@ -1,0 +1,12 @@
+{
+  "name": "amrap-tracker",
+  "displayName": "amrap-tracker",
+  "expo": {
+    "name": "amrap-tracker",
+    "slug": "amrap-tracker",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
