@@ -28,7 +28,7 @@ function Counter() {
   return (
     <Wrapper>
       <Pressable hitSlop={20} onPressIn={fadeNumber} onPressOut={increment}>
-        <Number style={{ color }}>{store.currentRound}</Number>
+        <Number style={{ color }}>{store.currentRound()}</Number>
       </Pressable>
       <Number>{store.roundsRemaining()}</Number>
     </Wrapper>
